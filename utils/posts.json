@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  },
+  {
+    "id": "2",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  },
+  {
+    "id": "3",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  },
+  {
+    "id": "4",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  },
+  {
+    "id": "5",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  },
+  {
+    "id": "6",
+    "thumbnail": "/thumbnail-2.png",
+    "category": "internet",
+    "date": "June 28, 2021",
+    "title": "How to design a product that can grow itself 10x in year",
+    "shortDescription": "Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.",
+    "authorAvatar": "/author-2.png",
+    "authorName": "Jenny Wilson",
+    "authorJob": "Product Designer"
+  }
+]
