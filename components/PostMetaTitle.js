@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PostMetaTitle({ category, date, title, center }) {
   return (
     <>
@@ -7,9 +9,11 @@ export default function PostMetaTitle({ category, date, title, center }) {
         <div>{date}</div>
       </div>
       <h2
-        className={`text-[24px] leading-[38px] mt-4 ${center ? "text-center" : ""}`}
+        className={`text-[24px] leading-[38px] mt-4 ${
+          center ? "text-center" : ""
+        }`}
       >
-        {title}
+        <Link href="/detail">{title}</Link>
       </h2>
     </>
   );

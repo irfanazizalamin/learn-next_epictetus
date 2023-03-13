@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -6,9 +7,9 @@ export default function Navbar() {
 
   const [dropdown, setDropdown] = useState(false);
   const dropdownList = [
-    { text: "Internet", href: "#" },
-    { text: "Books", href: "#" },
-    { text: "Open Source", href: "#" },
+    { text: "Internet", href: "/posts" },
+    { text: "Books", href: "/posts" },
+    { text: "Open Source", href: "/posts" },
   ];
 
   return (
@@ -51,11 +52,16 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className="lg:w-2/12 w-6/12 flex items-center justify-center lg:justify-start">
-            <div className="bg-gray-500 w-10 h-10 rounded flex justify-center items-center mr-4 shadow-2xl">
-              E
-            </div>
-            Epictetus
+          <div className="lg:w-2/12 w-6/12">
+            <Link
+              href="/"
+              className=" flex items-center justify-center lg:justify-start"
+            >
+              <div className="bg-gray-500 w-10 h-10 rounded flex justify-center items-center mr-4 shadow-2xl">
+                E
+              </div>
+              Epictetus
+            </Link>
           </div>
 
           <div className="w-3/12 lg:hidden text-right">
@@ -114,24 +120,23 @@ export default function Navbar() {
             </button>
             <ul className="flex lg:space-x-14 lg:space-y-0 space-y-4 lg:items-center flex-col lg:flex-row">
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="/posts" className="hover:underline">
                   UI Design
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="/posts" className="hover:underline">
                   Front-end
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <Link href="/posts" className="hover:underline">
                   Back-end
-                </a>
+                </Link>
               </li>
               <li className="relative">
                 <a
-                  href="#"
-                  className="hover:underline flex items-center"
+                  className="hover:underline flex items-center cursor-pointer"
                   onClick={() => setDropdown(!dropdown)}
                 >
                   Lainnya
@@ -160,13 +165,14 @@ export default function Navbar() {
                           key={index}
                           className="border-b border-white/5 last:border-0"
                         >
-                          <a
-                            href={dd.href}
-                            className="flex px-6 py-3  hover:underline hover:bg-gray-700/60 "
-                            onClick={() => setDropdown(!dropdown)}
-                          >
-                            {dd.text}
-                          </a>
+                          <Link href={dd.href}>
+                            <div
+                              className="flex px-6 py-3 hover:underline hover:bg-gray-700/60 "
+                              onClick={() => setDropdown(!dropdown)}
+                            >
+                              {dd.text}
+                            </div>
+                          </Link>
                         </li>
                       ))}
                   </ul>

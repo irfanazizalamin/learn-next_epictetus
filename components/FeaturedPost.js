@@ -1,3 +1,4 @@
+import Link from "next/link";
 import InfoPost from "./InfoPost";
 
 export default function FeaturedPost() {
@@ -5,11 +6,13 @@ export default function FeaturedPost() {
     <article>
       <div className="flex items-center flex-wrap -mx-4">
         <div className="lg:w-8/12 md:w-7/12 w-full px-4">
-          <img
-            src="/featured-thumbnail.png"
-            alt="featured-thumbnail"
-            className="w-full rounded-xl"
-          />
+          <Link href="/detail">
+            <img
+              src="/featured-thumbnail.png"
+              alt="featured-thumbnail"
+              className="w-full rounded-xl"
+            />
+          </Link>
         </div>
         <div className="lg:w-4/12 md:w-5/12 w-full px-4 mt-4 md:mt-0">
           <InfoPost
@@ -27,7 +30,7 @@ export default function FeaturedPost() {
           />
         </div>
       </div>
-      <hr className="lg:hidden border-white/10 mt-10"/>
+      <hr className="lg:hidden border-white/10 mt-10" />
     </article>
   );
 }
