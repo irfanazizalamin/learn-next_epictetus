@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Layout from "../components/Layout";
 import PostAuthor from "../components/PostAuthor";
 import PostMetaTitle from "../components/PostMetaTitle";
@@ -5,6 +7,10 @@ import PostMetaTitle from "../components/PostMetaTitle";
 export default function Detail() {
   return (
     <Layout>
+      <Head>
+        <title>Detail &mdash; Epictetus</title>
+      </Head>
+
       <section className="container mx-auto px-4 md:px-0">
         <div className="w-full md:w-1/2 mx-auto flex flex-col items-center">
           <PostMetaTitle
@@ -15,7 +21,7 @@ export default function Detail() {
           />
           <PostAuthor
             authorName="Leslie Alexander"
-            authorAvatar="/author-2.png"
+            authorAvatar="/author-1.png"
             authorJob="UI Designer"
           />
         </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import FeaturedPost from "@/components/FeaturedPost";
 import CardPost from "@/components/CardPost";
 import Layout from "../components/Layout";
@@ -10,6 +11,10 @@ const Home = () => {
 
   return (
     <Layout>
+      <Head>
+        <title>Home &mdash; Epictetus</title>
+      </Head>
+
       <section className="container mx-auto px-4 md:px-0">
         <FeaturedPost />
       </section>

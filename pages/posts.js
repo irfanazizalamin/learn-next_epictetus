@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Heaed from "next/head";
+
 import Layout from "../components/Layout";
 import CardPost from "@/components/CardPost";
 
@@ -10,6 +12,10 @@ export default function Posts() {
 
   return (
     <Layout>
+      <Head>
+        <title>Posts &mdash; Epictetus</title>
+      </Head>
+
       <section className="container mx-auto px-4 md:px-0">
         <SectionHeader>UI design</SectionHeader>
 
