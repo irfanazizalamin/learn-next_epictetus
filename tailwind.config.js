@@ -10,6 +10,14 @@ module.exports = {
     fontFamily: {
       sans: ["Patrick Hand", "Arial", "sans-serif"],
     },
+    container: {
+      screens: {
+        sm: "320px",
+        md: "720px",
+        lg: "960px",
+        xl: "1080px",
+      },
+    },
   },
   plugins: [],
 };
