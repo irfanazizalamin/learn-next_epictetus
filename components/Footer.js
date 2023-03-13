@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-16">
       <div className="container mx-auto">
         <p className="text-center text-[16px] text-white/60">
-          Copyright (c) 2021 - Design By Nauval
+          Copyright (c) 2021 - Created With ❤ By Irfan
         </p>
       </div>
     </footer>
