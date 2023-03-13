@@ -1,0 +1,8 @@
+* gambar dikasih padding itu ga bagus, so kita bungkus pakai div
+* flex bisa dikasih space-x/y
+* div itu block element, span itu inline
+* props bisa di spread object
+* jangan dibiasain key nya index, karena index terkadang mudah berubah
+* tag <header> and <footer> styling nya padding dan margin aja
+* svg itu block element
+* kalo dikasih position: static. top, bottom, dll itu gaberlaku
