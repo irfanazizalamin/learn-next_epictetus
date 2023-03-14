@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Heaed from "next/head";
+import Head from "next/head";
 
 import Layout from "../components/Layout";
 import CardPost from "@/components/CardPost";
